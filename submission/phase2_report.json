@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 246.294,
+    "vectorized_ms": 13.997,
+    "speedup": 17.6
+  },
+  "threads": {
+    "1": 2656.581,
+    "2": 2083.108,
+    "4": 2145.662,
+    "8": 2226.579
+  },
+  "devices": {
+    "cpu_ms": 436092.2,
+    "gpu_ms": 15184.6
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.443,
+    "param_count": 4935680
+  },
+  "sample": "\nSEBY:\nWere daubback'd, do my frather and he\nThanker, for to make there than this belied?\nThere bring me, that captart a'em;\nLet the words stweet our homerings. Lucio?\n\nSecond MusterBlance goodly:\nWela",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/clouds-project-511318-eurecomgpt/model.safetensors"
+  }
+}
